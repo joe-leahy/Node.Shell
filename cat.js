@@ -1,5 +1,4 @@
 const fs = require ("fs");
-// const bash = require("./bash.js")
 
 module.exports = function (fileName) {
 
@@ -10,7 +9,6 @@ module.exports = function (fileName) {
         console.log(data)
 
     })
-
 
   process.stdout.write("\n");
 };
